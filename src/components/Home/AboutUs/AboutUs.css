@@ -1,0 +1,15 @@
+.about-us {
+  height: auto;
+  width: 100%;
+}
+.title {
+  color: #272727c4;
+  padding: 5px 0px;
+  border-bottom: 1px solid #2727272c;
+}
+p {
+  text-align: justify;
+}
+span {
+  font-weight: bold;
+}

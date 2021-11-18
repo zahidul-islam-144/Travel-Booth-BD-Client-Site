@@ -1,0 +1,11 @@
+.all-bookings{
+    /* background-color: rgba(0, 0, 0, 0.055); */
+    height: auto;
+}
+.confirm-booking-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}

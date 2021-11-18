@@ -1,0 +1,27 @@
+p{
+    font-weight: 400;
+}
+.show-details-img-block{
+    height: 400px;
+    width: 500px;
+}
+.shown-details-img{
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tour-description{
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tour-description:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+}
+
+span{
+    margin: 5px;
+}

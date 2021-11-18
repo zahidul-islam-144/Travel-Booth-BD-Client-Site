@@ -1,0 +1,30 @@
+.travel-packages-container {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.all-packages {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.single-package {
+  background-color: coral;
+  height: 320px;
+  width: 300px;
+  border: 1px solid black;
+  margin: 5px;
+}
+.package-image {
+  height: 200px;
+  width: auto;
+}
+.spinner{
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

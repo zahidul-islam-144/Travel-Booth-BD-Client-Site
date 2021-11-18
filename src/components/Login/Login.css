@@ -1,0 +1,19 @@
+.login-container {
+  min-height: 100vh;
+  padding: 50px;
+}
+.row1 {
+  padding: 30px;
+}
+
+.login-block {
+  height: 150px;
+  border-right: 1px solid gray;
+}
+
+.google-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}

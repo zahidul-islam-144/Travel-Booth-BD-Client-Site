@@ -1,0 +1,44 @@
+.header-container{
+    background-color: #272727;
+    border-bottom: 1px solid #525353;
+    height: auto;
+    width: 100%;
+    padding: 10px 10px;
+}
+.nav-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+}
+
+.header-logo{
+    height: 45px;
+    width: 40px;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.item{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin: 5px;
+}
+.item:hover{
+    color: white;
+    text-decoration: underline;
+}
+.auth{
+    background-color: blue;
+    padding: 3px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.auth:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}

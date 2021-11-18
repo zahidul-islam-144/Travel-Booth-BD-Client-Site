@@ -1,0 +1,32 @@
+.add-package-container{
+    height: auto;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.add-package-container .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    margin: 5px;
+    width: 40%;
+}
+textarea{
+    margin: 5px;
+    width: 40%;
+    padding: 3px; 
+    background-color: aqua;
+}
+.back-button-link{
+    text-decoration: none;
+}
+.back-button-link:hover{
+    text-decoration: underline;
+    color: white;
+}
+.back-button{
+    display: block;
+    margin: 0 auto;
+}

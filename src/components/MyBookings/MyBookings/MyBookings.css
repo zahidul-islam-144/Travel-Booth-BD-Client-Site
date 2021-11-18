@@ -1,0 +1,13 @@
+.del-icon{
+  color: blue;
+}
+.delete-btn{
+  background:transparent;
+  outline: none;
+  border: none;
+}
+.delete-btn:hover{
+  background:transparent;
+  outline: none;
+  border: none;
+}
