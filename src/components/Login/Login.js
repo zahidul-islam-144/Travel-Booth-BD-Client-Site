@@ -2,19 +2,24 @@ import React from "react";
 import "./Login.css";
 import { Button, Col, Row, Container } from "react-bootstrap";
 // import useAuth from '../../hooks/useAuth';
-import useFirebase from "../../hooks/useFirebase";
 import { useHistory, useLocation } from "react-router-dom";
+import useAuth from "../../hooks/useAuth";
 
 const Login = () => {
-  const { signInUsingGoogle } = useFirebase();
+  const { signInUsingGoogle, isLoading, setIsLoading, setAuthError } = useAuth();
   const history = useHistory();
   const location = useLocation();
   const redirect_uri = location.state?.from || "/";
 
   const handleGoogleSignIn = () => {
-    signInUsingGoogle().then((result) => {
+    signInUsingGoogle()
+    .then((result) => {
       history.push(redirect_uri);
-    });
+    })
+    .catch((error) => {
+      setAuthError(error.message);
+    })
+    .finally(() => setIsLoading(false));
   };
   return (
     <>

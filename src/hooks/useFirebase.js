@@ -12,7 +12,8 @@ initializeAuthentication();
 
 const useFirebase = () => {
   const [user, setUser] = useState({});
-  const [error, setError] = useState("");
+  const [authError, setAuthError] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   let auth = getAuth();
 
@@ -40,6 +41,7 @@ const useFirebase = () => {
       setUser({});
       // window.location = '/home'
     });
+  
   };
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
@@ -51,9 +53,12 @@ const useFirebase = () => {
 
   return {
     signInUsingGoogle,
-    error,
+    authError,
     user,
     logout,
+    isLoading,
+    setIsLoading,
+    setAuthError,
   };
 };
 

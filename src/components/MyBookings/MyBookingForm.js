@@ -63,7 +63,7 @@ const MyBookingForm = () => {
               Confirm Your Bookings giving some informations
             </h1>
             <Col lg={12} md={12} sm={12}>
-              <div className="mx-auto bg-light p-5 rounded-2 mb-5">
+              <div className="mx-auto bg-light p-lg-5 rounded-2 mb-5">
                 <h4 className="mt-2">
                   * Travel Package you choose :: {myBookings.Package_Name},{" "}
                   {myBookings.Duration}, {myBookings.Price}/= (per person)
